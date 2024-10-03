@@ -1,0 +1,417 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  height: 5rem;
+  border-bottom: solid 5px #fdc787;
+  background-color: #012a61;
+}
+
+.fixed-no {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  height: 5rem;
+  border-bottom: solid 5px #fdc787;
+  background-color: #012a61;
+}
+
+nav h3 {
+  max-width: 300px;
+  width: 100%;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+nav li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #a5c5cc;
+}
+
+a:hover {
+  color: #fdc787;
+  font-weight: bold;
+}
+
+.active {
+  padding-bottom: 1rem;
+  border-bottom: solid 3px #fdc787;
+}
+
+.descripcion {
+  background: linear-gradient(#275a91, #021334);
+  color: white;
+  max-width: 100%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 5px #fdc787;
+  margin-bottom: 0;
+}
+
+.imagen img {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+  width: 300px;
+  max-width: 100%;
+  font-size: 1.8rem;
+  margin-left: 50px;
+  margin-right: 2rem;
+  text-shadow: 4px 4px rgba(3, 3, 3, 0.3);
+}
+
+.parrafo {
+  width: 600px;
+  max-width: 100%;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+
+.habilidades {
+  background: linear-gradient(to bottom right, #275a91, rgb(85, 138, 195));
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-bottom: solid 5px #fdc787;
+}
+
+.habilidades h1 {
+  font-size: 3rem;
+  margin-left: 30px;
+  text-align: center;
+  text-shadow: 4px 4px rgba(3, 3, 3, 0.3);
+}
+
+.duras,
+.blandas {
+  background: #012a61;
+  box-shadow: 10px 10px #fdc887b0 /*rgba(22, 37, 61, 0.5)*/;
+  max-width: 100%;
+  width: 450px;
+  height: 400px;
+  max-width: 100%;
+  border-radius: 3rem;
+  /*border: solid 3px #fdc787;*/
+  margin: 30px;
+}
+
+.duras h3,
+.blandas h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.duras ul,
+.blandas ul {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.duras li,
+.blandas li {
+  list-style-type: disc;
+}
+
+/*Proyectos*/
+
+.proyectos {
+  background: linear-gradient(#195798, #021334);
+  height: auto;
+  margin: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: solid 5px #fdc787;
+}
+
+.links {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.links .proyecto {
+  height: auto;
+  text-align: center;
+  color: #021334;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links .proyecto img {
+  width: 100%;
+  height: 200px;
+  margin-top: 0;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.links .proyecto h2 {
+  margin-top: 0;
+}
+
+.proyectos h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  text-shadow: 4px 4px rgba(3, 3, 3, 0.3);
+}
+
+.icon {
+  width: 150px;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.links a {
+  border: none;
+  border-radius: 3rem;
+  margin: 20px;
+  background: linear-gradient(#a5c5cc, #65bfd3);
+  width: 300px;
+  max-width: 100%;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #012a61;
+  margin-bottom: 2rem;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.links a:hover {
+  background: linear-gradient(#fdc787, #d0a46e);
+  color: #977086;
+  cursor: pointer;
+}
+
+/* Git ignore */
+
+.ignore {
+  background: linear-gradient(to bottom right, #275a91, rgb(85, 138, 195));
+  width: 100%;
+  height: auto;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: solid 5px #fdc787;
+}
+
+.ignore h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+  text-shadow: 4px 4px rgba(3, 3, 3, 0.3);
+}
+
+.pasos {
+  padding-bottom: 3rem;
+  width: 800px;
+  max-width: 100%;
+}
+
+.pasos h2 {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.pasos li {
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #021334;
+  width: 100%;
+  height: 2rem;
+}
+
+@media (max-width: 1300px) {
+  nav ul {
+    margin: 0;
+  }
+
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .descripcion .imagen {
+    margin-top: 10rem;
+  }
+
+  .parrafo {
+    width: 800px;
+    max-width: 100%;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .habilidades h1 {
+    margin-top: 8rem;
+  }
+
+  .duras,
+  .blandas {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .proyectos {
+    height: auto;
+  }
+
+  .links {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ignore .pasos {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .fixed {
+    flex-direction: column;
+    height: 8rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .fixed-no {
+    flex-direction: column;
+    height: 10rem;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  nav ul {
+    margin: 0;
+  }
+
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .descripcion .imagen {
+    margin-top: 4rem;
+  }
+
+  .imagen img {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-top: 12rem;
+  }
+
+  .titulo {
+    text-align: center;
+  }
+
+  .parrafo {
+    width: 600px;
+    max-width: 100%;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .habilidades h1 {
+    margin-top: 12rem;
+  }
+
+  .duras,
+  .blandas {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .proyectos {
+    height: auto;
+  }
+
+  .proyectos h1 {
+    margin-top: 12rem;
+  }
+
+  .ignore h1 {
+    margin-top: 12rem;
+  }
+
+  .links {
+    grid-template-columns: 1fr;
+  }
+
+  .ignore .pasos {
+    width: 90%;
+  }
+}
