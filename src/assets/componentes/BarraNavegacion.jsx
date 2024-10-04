@@ -6,7 +6,7 @@ import {
   NavLink,
 } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Navegacion() {
   return (
@@ -19,6 +19,9 @@ function Navegacion() {
           <li>
             <a href="https://www.instagram.com/laurafg0312/">
               <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a href="https://github.com/Lalaf03" style={{ marginLeft: "10px" }}>
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
         </ul>

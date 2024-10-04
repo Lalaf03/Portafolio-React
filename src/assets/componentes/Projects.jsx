@@ -28,7 +28,7 @@ function Projects() {
         </a>
 
         <a href="https://github.com/edwinmgallego/clase-practica-css-jueves/tree/devLau">
-          <div class="proyecto">
+          <div className="proyecto">
             <img src={imgFormulario} alt="Formulario" class="icon"></img>
             <h2>Formulario</h2>
           </div>
