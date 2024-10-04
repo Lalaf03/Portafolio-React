@@ -170,7 +170,7 @@ a:hover {
 
 .proyectos {
   background: linear-gradient(#195798, #021334);
-  height: auto;
+  height: 100vh;
   margin: 0;
   color: white;
   display: flex;
@@ -293,6 +293,10 @@ footer {
     margin: 0;
   }
 
+  .proyectos {
+    height: auto;
+  }
+
   .descripcion {
     display: flex;
     flex-direction: column;
@@ -350,6 +354,10 @@ footer {
     height: 8rem;
     justify-content: center;
     text-align: center;
+  }
+
+  .proyectos {
+    height: auto;
   }
 
   .fixed-no {

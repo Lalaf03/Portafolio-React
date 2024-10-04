@@ -1,8 +1,5 @@
-# React + Vite
+Parcial2 - Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web construida con React que permite a los usuarios navegar a través de distintos apartados que mostrarán mis habilidades, proyectos en los que he trabajado y una investigación para utilizar GitIgnore.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El link al proyecto es: https://parcial2-portafolio-react.vercel.app/
