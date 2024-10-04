@@ -285,7 +285,15 @@ a:hover {
 footer {
   background-color: #021334;
   width: 100%;
-  height: 2rem;
+  height: auto;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding: 0.5rem;
+  color: white;
 }
 
 @media (max-width: 1300px) {
